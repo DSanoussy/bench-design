@@ -1,0 +1,23 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+import { Button } from './button';
+
+<Meta title="Components/Button" component={Button} />
+
+# Button Component
+
+The `Button` component is used to trigger actions. It's customizable via the `label` and `backgroundColor` properties.
+
+## Examples
+
+<Canvas>
+  <Story name="Primary Button">
+    <Button label="Primary" />
+  </Story>
+</Canvas>
+
+## Variations
+
+You can change the label and the background color of the button using the following parameters:
+
+```js
+<Button label="Save" backgroundColor="green" />

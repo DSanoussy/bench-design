@@ -1,0 +1,18 @@
+/* button.scss */
+@import '../styles/variables';
+@import '../styles/typography';
+@import '../styles/spacing';
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: var(--spacing-md);
+  font-family: var(--font-family);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+}
